@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto auto;
-  gap: 16px;
+  gap: 10px;
 }
 
 .imgSection{
@@ -25,10 +25,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 280px;
+  width: 260px;
   height: 100%;
-  padding: 10px;
 }
+
 
 .burgerPrice {
   font-family: var(--font-Fredericka-the-Great), serif;
@@ -36,7 +36,7 @@
   letter-spacing: 2px;
   font-weight: bold;
   margin-top: auto;
-  padding-top: 10px;
+  padding: 10px 0px 40px 0px;
   letter-spacing: 3px;
   color: gold;
 }
@@ -50,9 +50,12 @@
   color: gold;
 }
 
-.burgerIngrdients{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.burgerIngrdients {
+  width: 100%;
+  max-width: 260px;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.4;
   color: lightgray;
 }
