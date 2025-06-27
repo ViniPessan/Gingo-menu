@@ -1,0 +1,54 @@
+.additionalsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 50px;
+  font-family: var(--font-Fredericka-the-Great), serif;
+  letter-spacing: 5px;
+}
+
+.additionalCard {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding-bottom: 150px;
+}
+
+.additionalItem {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  padding: 4px 30px;
+}
+
+.nameAndDots {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.additionalName {
+  font-size: 17px;
+  color: lightgray;
+  white-space: nowrap;
+}
+
+.dots {
+  flex: 1;
+  border-bottom: 2px dotted rgba(255, 255, 255, 0.3);
+  margin: 0 8px;
+  height: 1px;
+}
+
+.additionalPrice {
+  font-size: 17px;
+  color: gold;
+  white-space: nowrap;
+  font-weight: bold;
+}

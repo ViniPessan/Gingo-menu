@@ -1,0 +1,58 @@
+.title{
+  margin: 70px 0px 30px 0px;
+  font-size: 50px;
+  font-family: var(--font-Fredericka-the-Great), serif;
+  letter-spacing: 5px;
+}
+
+.burgerSection{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto;
+  gap: 16px;
+}
+
+.imgSection{
+  display: flex;
+  align-items: center;
+}
+
+.imgBurger{
+  border-radius: 20%;
+}
+
+.burgerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  height: 100%;
+  padding: 10px;
+}
+
+.burgerPrice {
+  font-family: var(--font-Fredericka-the-Great), serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: auto;
+  padding-top: 10px;
+  letter-spacing: 3px;
+  color: gold;
+}
+
+.burgerName{
+  font-family: var(--font-Fredericka-the-Great), serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: gold;
+}
+
+.burgerIngrdients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightgray;
+}
