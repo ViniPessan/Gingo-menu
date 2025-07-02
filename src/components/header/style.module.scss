@@ -16,3 +16,69 @@
   font-size: 100px;
   letter-spacing: 8px;
 }
+
+@media(max-width: 1024px){
+  .logo{
+  margin-top: 5rem;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.title{
+  font-size: 80px;
+  letter-spacing: 8px;
+}
+}
+
+@media(max-width: 768px){
+  .logo{
+  margin-top: 5rem;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.title{
+  font-size: 70px;
+  letter-spacing: 8px;
+}
+}
+
+
+@media(max-width: 570px){
+  .logo{
+  margin-top: 4rem;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.title{
+  font-size: 60px;
+  letter-spacing: 8px;
+}
+}
+
+@media(max-width: 425px){
+  .logo{
+  margin-top: 4rem;
+  width: 185px;
+  border-radius: 100%;
+}
+
+.title{
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+}
+
+@media(max-width: 370px){
+  .logo{
+  margin-top: 4rem;
+  width: 170px;
+  border-radius: 100%;
+}
+
+.title{
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+}

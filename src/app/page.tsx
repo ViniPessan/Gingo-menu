@@ -15,8 +15,8 @@ export default function Home() {
     <Header/>
       <main className=""> 
         <BurgerMenu/>
-        <AdditionalMenu/>
-        <div className={styles.section}>
+        {/* <AdditionalMenu/> */}
+        {/* <div className={styles.section}>
          <div className={styles.gridLayout}>
           <PortionMenu/>
           <DrinkMenu/>
@@ -25,7 +25,7 @@ export default function Home() {
           <DessertMenu/>
           <HouseDrinkMenu/>
          </div>
-        </div>
+        </div> */}
       </main>
     <footer className="">
         

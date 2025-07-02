@@ -59,3 +59,219 @@
   line-height: 1.4;
   color: lightgray;
 }
+
+@media(max-width: 1360px){
+
+  .title{
+  margin: 60px 0px 30px 0px;
+  font-size: 50px;
+  font-family: var(--font-Fredericka-the-Great), serif;
+  letter-spacing: 5px;
+}
+
+  .burgerSection{
+  gap: 8px;
+}
+
+.burgerCard {
+  width: 220px;
+  height: 100%;
+}
+
+.burgerName{
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+
+.burgerPrice {
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 10px 0px 40px 0px;
+  letter-spacing: 3px;
+}
+
+.burgerIngrdients {
+  max-width: 220px;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+}
+
+@media(max-width: 1150px){
+
+  .title{
+  margin: 40px 0px 30px 0px;
+  font-size: 50px;
+  font-family: var(--font-Fredericka-the-Great), serif;
+  letter-spacing: 5px;
+}
+
+  .burgerSection{
+  gap: 8px;
+}
+
+.burgerCard {
+  width: 190px;
+  height: 100%;
+}
+
+.burgerName{
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+
+.burgerPrice {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 10px 0px 40px 0px;
+  letter-spacing: 3px;
+}
+
+.burgerIngrdients {
+  max-width: 190px;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+}
+
+@media(max-width: 1024px){
+
+  .title{
+  margin: 40px 0px 40px 0px;
+  font-size: 50px;
+  font-family: var(--font-Fredericka-the-Great), serif;
+  letter-spacing: 5px;
+}
+
+ .burgerSection {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.burgerSection > :nth-last-child(2):nth-child(odd) {
+  grid-column: 2;
+  
+}
+
+.burgerSection > :last-child:nth-child(odd) {
+  grid-column: 3;
+}
+
+
+
+.burgerCard {
+  width: 210px;
+  height: 100%;
+}
+
+
+}
+
+@media(max-width: 900px){
+
+  .title{
+  margin: 40px 0px 40px 0px;
+  font-size: 50px;
+  font-family: var(--font-Fredericka-the-Great), serif;
+  letter-spacing: 5px;
+}
+
+ .burgerSection {
+  display: grid;
+  gap: 7px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.burgerSection > :nth-last-child(2):nth-child(odd) {
+  grid-column: 2;
+}
+
+.burgerSection > :last-child:nth-child(odd) {
+  grid-column: 3;
+}
+
+
+
+.burgerCard {
+  width: 190px;
+  height: 100%;
+}
+
+.burgerName{
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+
+.burgerPrice {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 10px 0px 40px 0px;
+  letter-spacing: 3px;
+}
+
+.burgerIngrdients {
+  max-width: 220px;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+}
+
+@media(max-width: 820px){
+
+  .title{
+  margin: 40px 0px 40px 0px;
+  font-size: 50px;
+  font-family: var(--font-Fredericka-the-Great), serif;
+  letter-spacing: 5px;
+}
+
+ .burgerSection {
+  display: grid;
+  gap: 7px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.burgerSection > :nth-last-child(2):nth-child(odd),
+.burgerSection > :last-child:nth-child(odd) {
+  grid-column: auto;
+  justify-self: auto;
+}
+
+
+.burgerCard {
+  width: 190px;
+  height: 100%;
+}
+
+.burgerName{
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+
+.burgerPrice {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 10px 0px 40px 0px;
+  letter-spacing: 3px;
+}
+
+.burgerIngrdients {
+  max-width: 220px;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+}
