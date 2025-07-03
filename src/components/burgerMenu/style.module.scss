@@ -1,23 +1,23 @@
-.title{
+.title {
   margin: 70px 0px 30px 0px;
   font-size: 50px;
   font-family: var(--font-Fredericka-the-Great), serif;
   letter-spacing: 5px;
 }
 
-.burgerSection{
+.burgerSection {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto auto;
   gap: 10px;
 }
 
-.imgSection{
+.imgSection {
   display: flex;
   align-items: center;
 }
 
-.imgBurger{
+.imgBurger {
   border-radius: 20%;
 }
 
@@ -25,23 +25,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 260px;
+  width: 250px;
   height: 100%;
 }
-
 
 .burgerPrice {
   font-family: var(--font-Fredericka-the-Great), serif;
   font-size: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-weight: bold;
   margin-top: auto;
   padding: 10px 0px 40px 0px;
-  letter-spacing: 3px;
   color: gold;
 }
 
-.burgerName{
+.burgerName {
   font-family: var(--font-Fredericka-the-Great), serif;
   font-size: 20px;
   letter-spacing: 2px;
@@ -60,218 +58,173 @@
   color: lightgray;
 }
 
-@media(max-width: 1360px){
+@media(max-width: 1360px) {
+  .title {
+    margin: 60px 0px 30px 0px;
+  }
 
-  .title{
-  margin: 60px 0px 30px 0px;
-  font-size: 50px;
-  font-family: var(--font-Fredericka-the-Great), serif;
-  letter-spacing: 5px;
+  .burgerSection {
+    gap: 8px;
+  }
+
+  .burgerCard {
+    width: 220px;
+  }
+
+  .burgerName,
+  .burgerPrice {
+    font-size: 18px;
+  }
+
+  .burgerIngrdients {
+    max-width: 220px;
+    font-size: 12px;
+  }
 }
 
-  .burgerSection{
-  gap: 8px;
+@media(max-width: 1150px) {
+  .title {
+    margin: 40px 0px 30px 0px;
+  }
+
+  .burgerCard {
+    width: 190px;
+  }
+
+  .burgerName,
+  .burgerPrice {
+    font-size: 16px;
+  }
+
+  .burgerIngrdients {
+    max-width: 190px;
+  }
 }
 
-.burgerCard {
-  width: 220px;
-  height: 100%;
+@media(max-width: 1024px) {
+  .title {
+    margin: 40px 0px 40px 0px;
+  }
+
+  .burgerSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .burgerCard {
+    width: 210px;
+  }
+
+  .burgerPrice {
+    font-size: 16px;
+    padding: 10px 0px 20px 0px;
+  }
 }
 
-.burgerName{
-  font-size: 18px;
-  padding-top: 10px;
+@media(max-width: 900px) {
+  .burgerSection {
+    gap: 15px;
+  }
+
+  .burgerCard {
+    width: 190px;
+  }
+
+  .burgerIngrdients {
+    max-width: 220px;
+  }
 }
 
-
-.burgerPrice {
-  font-size: 18px;
-  letter-spacing: 2px;
-  padding: 10px 0px 40px 0px;
-  letter-spacing: 3px;
+@media(max-width: 820px) {
+  .burgerCard {
+    margin: 0px 15px;
+  }
 }
 
-.burgerIngrdients {
-  max-width: 220px;
-  margin-top: 8px;
-  font-size: 12px;
-  line-height: 1.4;
-}
-}
+@media(max-width: 690px) {
+  .burgerCard {
+    width: 170px;
+    margin: 0px 7px;
+  }
 
-@media(max-width: 1150px){
+  .burgerName,
+  .burgerPrice {
+    font-size: 14px;
+  }
 
-  .title{
-  margin: 40px 0px 30px 0px;
-  font-size: 50px;
-  font-family: var(--font-Fredericka-the-Great), serif;
-  letter-spacing: 5px;
-}
-
-  .burgerSection{
-  gap: 8px;
+  .burgerIngrdients {
+    font-size: 10px;
+  }
 }
 
-.burgerCard {
-  width: 190px;
-  height: 100%;
+@media(max-width: 575px) {
+  .title {
+    margin: 20px 0px 30px 0px;
+    font-size: 40px;
+  }
+
+  .burgerCard {
+    width: 200px;
+    margin: 0px 15px;
+  }
+
+  .burgerPrice {
+    padding: 10px 0px 40px 0px;
+  }
 }
 
-.burgerName{
-  font-size: 16px;
-  padding-top: 10px;
+@media(max-width: 470px) {
+  .burgerSection {
+    gap: 5px;
+  }
+
+  .burgerCard {
+    width: 180px;
+    margin: 0px 5px;
+  }
+
+  .imgBurger {
+    width: 100px;
+  }
 }
 
-
-.burgerPrice {
-  font-size: 16px;
-  letter-spacing: 2px;
-  padding: 10px 0px 40px 0px;
-  letter-spacing: 3px;
+@media(max-width: 425px) {
+  .title {
+    margin: 20px 0px 20px 0px;
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
 }
 
-.burgerIngrdients {
-  max-width: 190px;
-  margin-top: 8px;
-  font-size: 12px;
-  line-height: 1.4;
-}
-}
+@media(max-width: 385px) {
+  .title {
+    font-size: 30px;
+  }
 
-@media(max-width: 1024px){
+  .burgerSection {
+    gap: 0px;
+  }
 
-  .title{
-  margin: 40px 0px 40px 0px;
-  font-size: 50px;
-  font-family: var(--font-Fredericka-the-Great), serif;
-  letter-spacing: 5px;
-}
+  .burgerCard {
+    width: 155px;
+    margin: 0px 2px;
+  }
 
- .burgerSection {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-}
+  .imgBurger {
+    width: 80px;
+  }
 
-.burgerSection > :nth-last-child(2):nth-child(odd) {
-  grid-column: 2;
-  
-}
+  .burgerName {
+    font-size: 12px;
+    word-spacing: -3px;
+  }
 
-.burgerSection > :last-child:nth-child(odd) {
-  grid-column: 3;
-}
+  .burgerPrice {
+    font-size: 12px;
+  }
 
-
-
-.burgerCard {
-  width: 210px;
-  height: 100%;
-}
-
-
-}
-
-@media(max-width: 900px){
-
-  .title{
-  margin: 40px 0px 40px 0px;
-  font-size: 50px;
-  font-family: var(--font-Fredericka-the-Great), serif;
-  letter-spacing: 5px;
-}
-
- .burgerSection {
-  display: grid;
-  gap: 7px;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-}
-
-.burgerSection > :nth-last-child(2):nth-child(odd) {
-  grid-column: 2;
-}
-
-.burgerSection > :last-child:nth-child(odd) {
-  grid-column: 3;
-}
-
-
-
-.burgerCard {
-  width: 190px;
-  height: 100%;
-}
-
-.burgerName{
-  font-size: 16px;
-  padding-top: 10px;
-}
-
-
-.burgerPrice {
-  font-size: 16px;
-  letter-spacing: 2px;
-  padding: 10px 0px 40px 0px;
-  letter-spacing: 3px;
-}
-
-.burgerIngrdients {
-  max-width: 220px;
-  margin-top: 8px;
-  font-size: 12px;
-  line-height: 1.4;
-}
-
-}
-
-@media(max-width: 820px){
-
-  .title{
-  margin: 40px 0px 40px 0px;
-  font-size: 50px;
-  font-family: var(--font-Fredericka-the-Great), serif;
-  letter-spacing: 5px;
-}
-
- .burgerSection {
-  display: grid;
-  gap: 7px;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-}
-
-.burgerSection > :nth-last-child(2):nth-child(odd),
-.burgerSection > :last-child:nth-child(odd) {
-  grid-column: auto;
-  justify-self: auto;
-}
-
-
-.burgerCard {
-  width: 190px;
-  height: 100%;
-}
-
-.burgerName{
-  font-size: 16px;
-  padding-top: 10px;
-}
-
-
-.burgerPrice {
-  font-size: 16px;
-  letter-spacing: 2px;
-  padding: 10px 0px 40px 0px;
-  letter-spacing: 3px;
-}
-
-.burgerIngrdients {
-  max-width: 220px;
-  margin-top: 8px;
-  font-size: 12px;
-  line-height: 1.4;
-}
-
+  .burgerIngrdients {
+    font-size: 9px;
+  }
 }
