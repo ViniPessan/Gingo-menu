@@ -6,7 +6,8 @@ import "./globals.css";
 const FrederickaTheGreat = Fredericka_the_Great({
   variable: "--font-Fredericka-the-Great",
   subsets: ["latin"],
-  weight: "400"
+  weight: "400",
+  display: "swap"
 });
 
 const geistSans = Geist({
