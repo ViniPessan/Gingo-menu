@@ -1,5 +1,5 @@
 import styles from "./style.module.scss";
-import { MenuItem, MenuSectionProps } from "@/types/menu";
+import {  MenuSectionProps } from "@/types/menu";
 
 
 export default function MenuSection({ title, items }: MenuSectionProps) {
