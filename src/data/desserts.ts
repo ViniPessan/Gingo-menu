@@ -3,7 +3,7 @@ import { Produto } from "@/types/product";
 export const desserts: Produto[] = [
   {
     id: 1,
-    nome: "O simples com qualidade",
+    nome: "Simples com qualidade",
     preço: 17.00,
     ingredientes: "Sorvete com brownie.",
     imagem: "",

@@ -10,14 +10,14 @@ export const drinks: Produto[] = [
   },
   {
     id: 2,
-    nome: "Refrigerantes 1 Litro",
+    nome: "Refrigerantes 1L",
     preço: 10.00,
     ingredientes: "Coca-Cola e Guaraná Antártica.",
     imagem:"",
   },
   {
     id: 3,
-    nome: "Refrigerantes 2 Litro",
+    nome: "Refrigerantes 2L",
     preço: 14.00,
     ingredientes: "Coca-Cola, Guaraná Antártica e Sprite.",
     imagem:"",

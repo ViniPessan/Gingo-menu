@@ -53,7 +53,7 @@
   font-weight: bold;
 }
 
-@media(max-width: 1025px) {
+@media(max-width: 1050px) {
   .additionalCard {
     width: 900px;
     gap: 13px;
@@ -67,19 +67,27 @@
   .additionalPrice {
     font-size: 14px;
   }
+
+
 }
 
 @media(max-width: 900px) {
   .additionalCard {
-    width: 800px;
+    width: 790px;
   }
 }
 
-@media(max-width: 820px) {
+@media(max-width: 790px) {
   .additionalCard {
-    width: 700px;
-    padding-bottom: 100px;
+    width: 640px;
+    padding: 10px 10px 100px 10px;
+    gap: 10px;
   }
+
+  .additionalItem {
+
+  padding: 4px 10px;
+}
 
   .additionalName,
   .additionalPrice {
@@ -87,22 +95,9 @@
   }
 }
 
-@media(max-width: 700px) {
-  .title {
-    padding-bottom: 20px;
-  }
 
-  .additionalCard {
-    width: 575px;
-    gap: 8px;
-  }
 
-  .additionalItem {
-    padding: 4px 10px;
-  }
-}
-
-@media(max-width: 582px) {
+@media(max-width: 641px) {
   .additionalsSection {
     justify-content: space-between;
   }
@@ -120,10 +115,15 @@
   .additionalItem {
     padding: 4px 10px;
   }
+
+    .additionalName,
+  .additionalPrice {
+    font-size: 17px;
+  }
 }
 
-@media(max-width: 575px) {
-  .additionalsSection {
+@media(max-width: 550px) {
+ .additionalsSection {
     justify-content: space-between;
   }
 
@@ -133,34 +133,74 @@
   }
 
   .additionalCard {
-    width: 420px;
+    width: 450px;
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .additionalItem {
-    padding: 4px 10px;
-  }
-}
-
-@media(max-width: 425px) {
-  .title {
-    font-size: 35px;
-    padding-bottom: 10px;
-  }
-
-  .additionalCard {
-    width: 370px;
-    gap: 10px;
     padding-bottom: 50px;
-
   }
 
   .additionalItem {
     padding: 4px 5px;
   }
+
+    .additionalName,
+  .additionalPrice {
+    font-size: 14px;
+  }
 }
 
-@media(max-width: 385px) {
+@media(max-width: 450px) {
+   .additionalsSection {
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+
+  .additionalCard {
+    width: 400px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .additionalItem {
+    padding: 4px 0px;
+  }
+
+    .additionalName,
+  .additionalPrice {
+    font-size: 12px;
+  }
+
+  .dots {
+  flex: 1;
+  border-bottom: 2px dotted rgba(255, 255, 255, 0.3);
+  margin: 0 4px;
+  height: 1px;
+}
+}
+
+@media(max-width: 425px) {
+  .title {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .additionalCard {
+    width: 360px;
+  }
+
+  .additionalItem {
+    padding: 4px 2px;
+  }
+
+  .additionalName,
+  .additionalPrice {
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 375px) {
   .title {
     font-size: 30px;
     padding-bottom: 10px;
@@ -171,7 +211,7 @@
   }
 
   .additionalItem {
-    padding: 4px 2px;
+    padding: 4px 0px;
   }
 
   .additionalName,
