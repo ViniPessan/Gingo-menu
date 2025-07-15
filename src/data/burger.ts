@@ -72,3 +72,14 @@ export const burgers: Produto[] = [
     imagem: "/burger.jpeg",
   },
 ];
+
+
+export const burgerOfMounth: Produto[] = [
+  {
+    id: 1,
+    nome: "Cremoso Burger",
+    ingredientes: "Pão de batata, burger 100g, queijo cheddar, tomate, cream cheese, bacon e Doritos.",
+    preço: 30.00,
+    imagem: "/burger.jpeg",
+  }
+];

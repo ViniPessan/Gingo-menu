@@ -8,12 +8,14 @@ import Header from "@/components/header";
 import HouseDrinkMenu from "@/components/houseDrinksMenu";
 import PortionMenu from "@/components/portionsMenu";
 import styles from "@/app/styles.module.scss"
+import BurgerOfMounth from "@/components/burgerOfMounthMenu";
 
 export default function Home() {
   return (
     <div className="">
     <Header/>
-      <main className=""> 
+      <main className="">
+        <BurgerOfMounth/>
         <BurgerMenu/>
         <AdditionalMenu/> 
         <div className={styles.section}>
