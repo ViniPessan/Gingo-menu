@@ -47,11 +47,11 @@
 }
 
 .itemName {
-  font-family: var(--font-Fredericka-the-Great), serif;
+  font-family: sans-serif;
   letter-spacing: 5px;
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: #fff;
   white-space: nowrap;
 }
 
@@ -64,7 +64,7 @@
 
 .itemPrice {
   font-size: 20px;
-  color: gold;
+  color: rgb(255, 227, 70);
   white-space: nowrap;
   font-weight: bold;
 }
@@ -211,7 +211,7 @@
 .menuSection {
   width: 360px;
   padding: 10px 0px 20px 0px;
-  margin: 0px 20px 20px 20px;
+  margin: 0px 15px 15px 15px;
 }
 
 .title {
