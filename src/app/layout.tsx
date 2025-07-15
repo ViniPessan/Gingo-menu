@@ -33,7 +33,7 @@ export default function RootLayout({
  return (
     <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable} ${FrederickaTheGreat.variable}`}>
       <body className="relative min-h-screen antialiased text-white">
-          <div className="absolute top-0 left-0 w-full h-[800px] -z-10 bg-[url('/background.jpeg')] bg-cover bg-top">
+          <div className="absolute top-0 left-0 w-full h-[920px] -z-10 bg-[url('/background.jpeg')] bg-cover bg-top">
           <div className="w-full h-full bg-gradient-to-b from-black/0 to-black/100 backgroundBlur" />
         </div>
         <main className="relative z-10">

@@ -9,6 +9,7 @@ import HouseDrinkMenu from "@/components/houseDrinksMenu";
 import PortionMenu from "@/components/portionsMenu";
 import styles from "@/app/styles.module.scss"
 import BurgerOfMounth from "@/components/burgerOfMounthMenu";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
         </div>
       </main>
     <footer className="">
-        
+        {/* <Footer/> */}
       </footer>
     </div>
   );
