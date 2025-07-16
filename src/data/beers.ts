@@ -40,7 +40,7 @@ export const beers: Produto[] = [
   {
     id: 7,
     nome: "Heineken 0% Álcool",
-    preço: 2.00,
+    preço: 10.00,
     imagem: "",
   },
   {
