@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: black;
   color: #fff;
   padding: 20px 20px;
@@ -12,20 +12,369 @@ flex-direction: column;
 align-items: center;
 margin-bottom: 30px;
 }
+
+.ctaTitle{
+  font-family: var(--font-Fredericka-the-Great), serif;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
 .whatsappButton {
 display: flex;
 align-items: center;
 width: auto;
-background-color: #25d366;
-color: white;
+background-color: #029337;
+color: rgb(248, 248, 248);
 padding: 10px 15px;
-border-radius: 15px;
+border-radius: 20px;
+font-family: sans-serif;
+font-size: 25px;
 font-weight: bold;
 transition: background 0.3s;
 
 &:hover {
-background-color: #1ebe5d;
+background-color: #005b24;
 }
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 40px;
+}
+
+.infoSection {
+padding: 40px 60px;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+flex-wrap: wrap;
+}
+
+
+
+.infoSectionTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.infoSectionDescription{
+  display: flex;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #888888;
+}
+
+.instagramIcon{ 
+  height: 20px;
+  width: 20px;
+  margin: 0px 7px;
+  vertical-align: middle;
+}
+
+.copy {
+font-size: 12px;
+color: #777;
+}
+
+@media(max-width: 1310px){
+  .footer {
+  margin-top: 20px;
+  padding: 20px 20px;
+
+}
+
+.ctaSection {
+margin-bottom: 30px;
+}
+
+.ctaTitle{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 25px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 40px;
+}
+
+.infoSection {
+padding: 40px 30px;
+}
+
+
+
+.infoSectionTitle{
+  font-size: 20px;
+  padding: 5px;
+}
+
+.infoSectionDescription{
+  font-size: 16px;
+}
+
+.instagramIcon{ 
+  height: 20px;
+  width: 20px;
+  margin: 0px 7px;
+}
+
+.copy {
+font-size: 12px;
+color: #777;
+}
+}
+
+@media(max-width: 1200px){
+  .footer {
+  margin-top: 20px;
+  padding: 20px 20px;
+
+}
+
+.ctaSection {
+margin-bottom: 30px;
+}
+
+.ctaTitle{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 25px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 40px;
+}
+
+.infoSection {
+padding: 40px 20px;
+}
+
+
+
+.infoSectionTitle{
+  font-size: 18px;
+  padding: 5px;
+}
+
+.infoSectionDescription{
+  font-size: 14px;
+}
+
+.instagramIcon{ 
+  height: 18px;
+  width: 18px;
+  margin: 0px 7px;
+}
+
+.copy {
+font-size: 12px;
+color: #777;
+}
+}
+
+@media(max-width: 1000px){
+  .footer {
+  margin-top: 20px;
+  padding: 20px 10px;
+
+}
+
+.ctaSection {
+margin-bottom: 30px;
+}
+
+.ctaTitle{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 25px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 40px;
+}
+
+.infoSection {
+padding: 40px 10px;
+}
+
+
+
+.infoSectionTitle{
+  font-size: 16px;
+  padding: 5px;
+}
+
+.infoSectionDescription{
+  font-size: 12px;
+}
+
+.instagramIcon{ 
+  height: 16px;
+  width: 16px;
+  margin: 0px 7px;
+}
+
+.copy {
+font-size: 9px;
+color: #777;
+}
+}
+
+@media(max-width: 850px){
+  .footer {
+  margin-top: 10px;
+  padding: 10px 10px;
+
+}
+
+.ctaSection {
+margin-bottom: 30px;
+}
+
+.ctaTitle{
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 30px;
+}
+
+.infoSection {
+padding: 30px 10px;
+}
+
+
+
+.infoSectionTitle{
+  font-size: 14px;
+  padding: 5px;
+}
+
+.infoSectionDescription{
+  font-size: 10px;
+}
+
+.instagramIcon{ 
+  height: 14px;
+  width: 14px;
+  margin: 0px 7px;
+}
+
+.copy {
+font-size: 9px;
+color: #777;
+}
+}
+
+@media(max-width: 768px){
+  .footer {
+  margin-top: 10px;
+  padding: 10px 10px;
+
+}
+
+.ctaSection {
+margin-bottom: 30px;
+}
+
+.ctaTitle{
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 30px;
+}
+
+.infoSection {
+padding: 30px 5px;
+}
+
+
+
+.infoSectionTitle{
+  font-size: 14px;
+  padding: 5px;
+}
+
+.infoSectionDescription{
+  font-size: 9.5px;
+}
+
+.instagramIcon{ 
+  height: 14px;
+  width: 14px;
+  margin: 0px 7px;
+}
+
+.copy {
+font-size: 9px;
+color: #777;
+}
+}
+
+@media(max-width: 640px){
+  .footer {
+  margin-top: 10px;
+  padding: 10px 10px;
+
+}
+
+.ctaSection {
+margin-bottom: 30px;
+}
+
+.ctaTitle{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 18px;
+font-weight: bold;
 }
 
 .whatsIcon{
@@ -34,40 +383,346 @@ width: 25px;
 }
 
 .infoSection {
-display: flex;
-justify-content: center;
-gap: 40px;
-flex-wrap: wrap;
-margin-bottom: 20px;
+padding: 30px 5px;
+display: grid;
+gap: 10px;
+grid-template-columns: 1fr 1fr;  
+grid-template-areas:
+    "endereco instagram"
+    "horario contato";
+  gap: 20px;
+}
+.infoSection > div:nth-child(1) {
+  grid-area: horario;
+}
+.infoSection > div:nth-child(2) {
+  grid-area: endereco;
+}
+.infoSection > div:nth-child(3) {
+  grid-area: contato;
+}
+.infoSection > div:nth-child(4) {
+  grid-area: instagram;
 }
 
-.email{
-  display: flex;
+.infoSectionTitle{
+  font-size: 18px;
+  padding: 5px;
 }
 
-.gmailIcon{
-  width: 25px;
-  margin: 0px 10px;
-}
-
-.infoInstagramTitle{
+.infoSectionDescription{
+  font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.instagram{
-  display: flex;
-  
-}
-
 .instagramIcon{ 
-  height: 15px;
-  width: 15px;
-  margin: 0px 10px;
+  height: 18px;
+  width: 18px;
+  margin: 0px 7px;
 }
 
 .copy {
 font-size: 12px;
 color: #777;
+}
+}
+
+@media(max-width: 550px){
+  .footer {
+  margin-top: 10px;
+  padding: 10px 10px;
+
+}
+
+.ctaSection {
+margin-bottom: 20px;
+}
+
+.ctaTitle{
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 15px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 30px;
+}
+
+.infoSection {
+padding: 30px 5px;
+display: grid;
+gap: 5px;
+grid-template-columns: 1fr 1fr;  
+grid-template-areas:
+    "endereco instagram"
+    "horario contato";
+  gap: 20px;
+}
+.infoSection > div:nth-child(1) {
+  grid-area: horario;
+}
+.infoSection > div:nth-child(2) {
+  grid-area: endereco;
+}
+.infoSection > div:nth-child(3) {
+  grid-area: contato;
+}
+.infoSection > div:nth-child(4) {
+  grid-area: instagram;
+}
+
+.infoSectionTitle{
+  font-size: 16px;
+  padding: 5px;
+}
+
+.infoSectionDescription{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagramIcon{ 
+  height: 16px;
+  width: 16px;
+  margin: 0px 7px;
+}
+
+.copy {
+font-size: 10px;
+color: #777;
+}
+}
+
+@media(max-width: 478px){
+  .footer {
+  margin-top: 10px;
+  padding: 10px 10px;
+
+}
+
+.ctaSection {
+margin-bottom: 10px;
+}
+
+.ctaTitle{
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 15px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 25px;
+}
+
+.infoSection {
+padding: 20px 5px;
+display: grid;
+gap: 0px;
+grid-template-columns: 1fr 1fr;  
+grid-template-areas:
+    "endereco instagram"
+    "horario contato";
+  gap: 20px;
+}
+.infoSection > div:nth-child(1) {
+  grid-area: horario;
+}
+.infoSection > div:nth-child(2) {
+  grid-area: endereco;
+}
+.infoSection > div:nth-child(3) {
+  grid-area: contato;
+}
+.infoSection > div:nth-child(4) {
+  grid-area: instagram;
+}
+
+.infoSectionTitle{
+  font-size: 14px;
+  padding: 5px 0px;
+}
+
+.infoSectionDescription{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagramIcon{ 
+  height: 14px;
+  width: 14px;
+  margin: 0px 7px;
+}
+
+.copy {
+font-size: 9px;
+color: #777;
+}
+}
+
+@media(max-width: 425px){
+  .footer {
+  margin-top: 10px;
+  padding: 10px 5px;
+
+}
+
+.ctaSection {
+margin-bottom: 10px;
+}
+
+.ctaTitle{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 14px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 20px;
+}
+
+.infoSection {
+padding: 20px 5px;
+display: grid;
+grid-template-columns: 1fr 1fr;  
+grid-template-areas:
+    "endereco instagram"
+    "horario contato";
+  gap: 10px;
+}
+.infoSection > div:nth-child(1) {
+  grid-area: horario;
+}
+.infoSection > div:nth-child(2) {
+  grid-area: endereco;
+}
+.infoSection > div:nth-child(3) {
+  grid-area: contato;
+}
+.infoSection > div:nth-child(4) {
+  grid-area: instagram;
+}
+
+.infoSectionTitle{
+  font-size: 13px;
+  padding: 5px 0px;
+}
+
+.infoSectionDescription{
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagramIcon{ 
+  height: 13px;
+  width: 13px;
+  margin: 0px 7px;
+}
+
+.copy {
+font-size: 8px;
+color: #777;
+}
+}
+
+@media(max-width: 351px){
+  .footer {
+  margin-top: 10px;
+  padding: 10px 5px;
+
+}
+
+.ctaSection {
+margin-bottom: 10px;
+}
+
+.ctaTitle{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 13px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 20px;
+}
+
+.infoSection {
+padding: 20px 0px;
+display: grid;
+grid-template-columns: 1fr 1fr;  
+grid-template-areas:
+    "endereco instagram"
+    "horario contato";
+  gap: 5px;
+}
+.infoSection > div:nth-child(1) {
+  grid-area: horario;
+}
+.infoSection > div:nth-child(2) {
+  grid-area: endereco;
+}
+.infoSection > div:nth-child(3) {
+  grid-area: contato;
+}
+.infoSection > div:nth-child(4) {
+  grid-area: instagram;
+}
+
+.infoSectionTitle{
+  font-size: 13px;
+  padding: 5px 0px;
+}
+
+.infoSectionDescription{
+  font-size: 8.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagramIcon{ 
+  height: 13px;
+  width: 13px;
+  margin: 0px 7px;
+}
+
+.copy {
+font-size: 8px;
+color: #777;
+}
 }

@@ -15,8 +15,8 @@ export default function Footer(){
 
   <div className={styles.infoSection}>
     <div>
-      <h4>⏰ Atendimento</h4>
-      <p className={styles.hour}>
+      <h4 className={styles.infoSectionTitle}>⏰ Atendimento</h4>
+      <p className={styles.infoSectionDescription}>
        Terça e Quarta: Apenas delivery<br />
        Quinta a Domingo: Presencial e delivery <br />
        Das 19h às 23h
@@ -24,25 +24,25 @@ export default function Footer(){
     </div>
     <div>
       <h4 className={styles.infoSectionTitle}>📍 Endereço</h4>
-      <p className={styles.address}>
+      <p className={styles.infoSectionDescription}>
         <a href="https://www.google.com/maps?q=Rua+Exemplo,+123+Pacaembu+SP" target="_blank" rel="noopener noreferrer">
-         Rua Engenheiro Prestes Maia, 123 <br /> Esplanada, Pacaembu - SP
+         Rua Engenheiro Prestes Maia, 632 <br /> Esplanada, Pacaembu - SP
         </a>
       </p>
     </div>
     <div>
       <h4 className={styles.infoSectionTitle}>📱 Contato</h4>
-      <p className={styles.email}>
+      <p className={styles.infoSectionDescription}>
          Email: contato@gingo.com
       </p>
-      <p className={styles.phone}> Celular: (18) 99821-7272</p>
+      <p className={styles.infoSectionDescription}> Celular: (18) 99821-7272</p>
     </div>
     <div className={styles.instagramSection}>
-      <h4 className={styles.infoInstagramTitle}>
+      <h4 className={styles.infoSectionTitle}>
         <img src="/instagram.png" alt="insta" className={styles.instagramIcon}/>
         Redes Sociais
       </h4>
-      <a href="https://www.instagram.com/gingohamburgueria/" target="_blank" className={styles.instagram} >
+      <a href="https://www.instagram.com/gingohamburgueria/" target="_blank" className={styles.infoSectionDescription} >
         instagram.com/gingohamburgueria
       </a>
     </div>
