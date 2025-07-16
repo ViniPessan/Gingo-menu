@@ -47,6 +47,7 @@
 @media(max-width: 550px){
 .gridLayout{
   gap: 5px;
+  margin-bottom: 30px;
 }
 
 }
@@ -54,6 +55,8 @@
 @media(max-width: 425px){
 .gridLayout{
   gap: 0px;
+  margin-bottom: 20px;
+
 }
 
 }
