@@ -70,12 +70,12 @@ flex-wrap: wrap;
 .instagramIcon{ 
   height: 20px;
   width: 20px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 font-size: 12px;
-color: #777;
+color: #a0a0a0;
 }
 
 @media(max-width: 1310px){
@@ -124,12 +124,11 @@ padding: 40px 30px;
 .instagramIcon{ 
   height: 20px;
   width: 20px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 font-size: 12px;
-color: #777;
 }
 }
 
@@ -179,12 +178,11 @@ padding: 40px 20px;
 .instagramIcon{ 
   height: 18px;
   width: 18px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 font-size: 12px;
-color: #777;
 }
 }
 
@@ -234,12 +232,11 @@ padding: 40px 10px;
 .instagramIcon{ 
   height: 16px;
   width: 16px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 font-size: 9px;
-color: #777;
 }
 }
 
@@ -289,12 +286,11 @@ padding: 30px 10px;
 .instagramIcon{ 
   height: 14px;
   width: 14px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 font-size: 9px;
-color: #777;
 }
 }
 
@@ -344,12 +340,11 @@ padding: 30px 5px;
 .instagramIcon{ 
   height: 14px;
   width: 14px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 font-size: 9px;
-color: #777;
 }
 }
 
@@ -386,10 +381,10 @@ width: 25px;
 }
 
 .infoSection {
+margin-top: 20px;
 padding: 30px 5px;
 display: grid;
 align-items: stretch;
-gap: 10px;
 grid-template-columns: 1fr 1fr;  
 grid-template-areas:
     "endereco instagram"
@@ -424,13 +419,12 @@ grid-template-areas:
 .instagramIcon{ 
   height: 18px;
   width: 18px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 padding: 15px 0px 5px 0px;
 font-size: 10px;
-color: #777;
 }
 }
 
@@ -463,6 +457,7 @@ width: 30px;
 }
 
 .infoSection {
+margin-top: 20px;
 padding: 30px 5px;
 display: grid;
 gap: 5px;
@@ -500,13 +495,12 @@ grid-template-areas:
 .instagramIcon{ 
   height: 16px;
   width: 16px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 padding-top: 15px;
 font-size: 9px;
-color: #777;
 }
 }
 
@@ -541,7 +535,6 @@ width: 25px;
 .infoSection {
 padding: 20px 5px;
 display: grid;
-gap: 0px;
 grid-template-columns: 1fr 1fr;  
 grid-template-areas:
     "endereco instagram"
@@ -576,13 +569,12 @@ grid-template-areas:
 .instagramIcon{ 
   height: 14px;
   width: 14px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 padding-top: 15px; 
 font-size: 9px;
-color: #777;
 }
 }
 
@@ -621,7 +613,7 @@ grid-template-columns: 1fr 1fr;
 grid-template-areas:
     "endereco instagram"
     "horario contato";
-  gap: 10px;
+  gap: 25px;
 }
 .infoSection > div:nth-child(1) {
   grid-area: horario;
@@ -651,16 +643,15 @@ grid-template-areas:
 .instagramIcon{ 
   height: 13px;
   width: 13px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 font-size: 8px;
-color: #777;
 }
 }
 
-@media(max-width: 351px){
+@media(max-width: 375px){
   .footer {
   margin-top: 0px;
   padding: 10px 5px;
@@ -695,7 +686,7 @@ grid-template-columns: 1fr 1fr;
 grid-template-areas:
     "endereco instagram"
     "horario contato";
-  gap: 5px;
+  gap: 20px;
 }
 .infoSection > div:nth-child(1) {
   grid-area: horario;
@@ -725,11 +716,83 @@ grid-template-areas:
 .instagramIcon{ 
   height: 13px;
   width: 13px;
-  margin: 0px 7px;
+  margin: 0px 4px;
 }
 
 .copy {
 font-size: 8px;
-color: #777;
+}
+}
+
+@media(max-width: 333px){
+  .footer {
+  margin-top: 0px;
+  padding: 10px 5px;
+
+}
+
+.ctaSection {
+margin-bottom: 10px;
+}
+
+.ctaTitle{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.whatsappButton {
+padding: 10px 15px;
+border-radius: 20px;
+font-size: 13px;
+font-weight: bold;
+}
+
+.whatsIcon{
+margin-left: 10px;
+width: 20px;
+}
+
+.infoSection {
+padding: 20px 0px;
+display: grid;
+grid-template-columns: 1fr 1fr;  
+grid-template-areas:
+    "endereco instagram"
+    "horario contato";
+  gap: 15px 5px;
+}
+.infoSection > div:nth-child(1) {
+  grid-area: horario;
+}
+.infoSection > div:nth-child(2) {
+  grid-area: endereco;
+}
+.infoSection > div:nth-child(3) {
+  grid-area: contato;
+}
+.infoSection > div:nth-child(4) {
+  grid-area: instagram;
+}
+
+.infoSectionTitle{
+  font-size: 13px;
+  padding:  0px;
+}
+
+.infoSectionDescription{
+  font-size: 8.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagramIcon{ 
+  height: 13px;
+  width: 13px;
+  margin: 0px 4px;
+}
+
+.copy {
+font-size: 8px;
 }
 }

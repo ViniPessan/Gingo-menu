@@ -15,7 +15,7 @@ export default function Footer(){
 
   <div className={styles.infoSection}>
     <div>
-      <h4 className={styles.infoSectionTitle}>⏰ Atendimento</h4>
+      <h4 className={styles.infoSectionTitle}>⏰Atendimento</h4>
       <p className={styles.infoSectionDescription}>
        Terça e Quarta: Apenas delivery<br />
        Quinta a Domingo: Presencial e delivery <br />
@@ -23,7 +23,7 @@ export default function Footer(){
       </p>
     </div>
     <div>
-      <h4 className={styles.infoSectionTitle}>📍 Endereço</h4>
+      <h4 className={styles.infoSectionTitle}>📍Endereço</h4>
       <p className={styles.infoSectionDescription}>
         <a href="https://www.google.com/maps?q=Rua+Exemplo,+123+Pacaembu+SP" target="_blank" rel="noopener noreferrer">
         🔗 Rua Engenheiro Prestes Maia, 632 <br /> Esplanada, Pacaembu - SP
@@ -31,7 +31,7 @@ export default function Footer(){
       </p>
     </div>
     <div>
-      <h4 className={styles.infoSectionTitle}>📱 Contato</h4>
+      <h4 className={styles.infoSectionTitle}>📱Contato</h4>
       <p className={styles.infoSectionDescription}>
          Email: contato@gingo.com
       </p>
