@@ -26,7 +26,7 @@ export default function Footer(){
       <h4 className={styles.infoSectionTitle}>📍 Endereço</h4>
       <p className={styles.infoSectionDescription}>
         <a href="https://www.google.com/maps?q=Rua+Exemplo,+123+Pacaembu+SP" target="_blank" rel="noopener noreferrer">
-        🔗Rua Engenheiro Prestes Maia, 632 <br /> Esplanada, Pacaembu - SP
+        🔗 Rua Engenheiro Prestes Maia, 632 <br /> Esplanada, Pacaembu - SP
         </a>
       </p>
     </div>
@@ -43,7 +43,7 @@ export default function Footer(){
         Redes Sociais
       </h4>
       <a href="https://www.instagram.com/gingohamburgueria/" target="_blank" className={styles.infoSectionDescription} >
-        🔗instagram.com/gingohamburgueria
+        🔗 instagram.com/gingohamburgueria
       </a>
     </div>
   </div>
