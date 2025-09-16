@@ -13,7 +13,7 @@
 ## 📸 Preview
 
 ### Desktop
-Algumas imagens do projeto, responsivo para todas as telas.
+Algumas imagens do projeto, responsivo para todas dispositivos.
 
 <img width="1898" height="877" alt="gingo" src="https://github.com/user-attachments/assets/876a9300-4013-4b5c-a373-bdc6715943c6" />
 
@@ -23,7 +23,6 @@ Algumas imagens do projeto, responsivo para todas as telas.
 
 <img width="1900" height="885" alt="footer" src="https://github.com/user-attachments/assets/21e102ae-a560-42fc-8edb-1509a6486e65" />
 
-<img width="535" height="765" alt="Sem título" src="https://github.com/user-attachments/assets/6844d43b-37c0-4ab0-8f95-d079cd5a5d5d" />
 
 
 
